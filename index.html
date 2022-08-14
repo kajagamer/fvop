@@ -76,14 +76,23 @@
     // https://firebase.google.com/docs/web/setup#available-libraries
 
     // Your web app's Firebase configuration
-    const firebaseConfig = {
-      apiKey: "AIzaSyCEGqXL1dtcotOYudzgZklkwZbDzFjCw0U",
-      authDomain: "fichazona.firebaseapp.com",
-      projectId: "fichazona",
-      storageBucket: "fichazona.appspot.com",
-      messagingSenderId: "849742326472",
-      appId: "1:849742326472:web:0ae3b3056b2b301b1693fd"
-    };
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyA3kn5qjVIhSsihZbDn7uKvKKcRTVO9i_Y",
+  authDomain: "vila-esquecida.firebaseapp.com",
+  projectId: "vila-esquecida",
+  storageBucket: "vila-esquecida.appspot.com",
+  messagingSenderId: "1072722069202",
+  appId: "1:1072722069202:web:a2466a94327d22c0b04f0b"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
